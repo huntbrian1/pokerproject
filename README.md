@@ -1,4 +1,4 @@
-# PokerProject2: Commercial Behavioral Analytics from Gameplay Logs
+# Poker Platform Analytics: Commercial Behavioral Insights from Gameplay Logs
 
 This project analyzes PHH poker hand-history logs as a commercial analytics case study. The goal is not poker strategy or coaching. The goal is to show how messy gameplay event data can be transformed into business-readable metrics around participant behavior, contest lifecycle depth, interaction intensity, resolution visibility, and outcome concentration.
 
