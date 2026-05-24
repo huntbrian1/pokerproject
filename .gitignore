@@ -1,0 +1,24 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local environments
+.env
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Raw data is large and not committed
+data/*
+!data/README.md
+!data/.gitkeep
+*.phh
+*.phhs
+
+# Temporary exports
+*.tmp
