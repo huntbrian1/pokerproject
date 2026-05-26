@@ -9,7 +9,7 @@ Data source:
 - Kim, Juho. **A Dataset of Poker Hand Histories**. Zenodo. Version **v2**. DOI: `10.5281/zenodo.13997158`
 - Source URL: https://zenodo.org/records/13997158
 
-Important: this project references the Zenodo **v2** record, not v3. The Zenodo page notes that a newer version exists, but the analysis and local file inventory were built from the v2 dataset.
+Important: this project references the Zenodo **v2** record, not v3. The Zenodo page notes that a newer version exists, and the PHH reference GitHub repository currently documents v3. This project uses that repository for schema context only; the analysis and local file inventory were built from the v2 dataset.
 
 To rerun the notebook, place the source data here:
 
@@ -25,4 +25,4 @@ data/
 `-- phua-xuan-2019.phh
 ```
 
-The notebook uses single-hand `.phh` files for the main analysis. `.phhs` files are audited as multi-hand containers readable with `HandHistory.load_all()`, but are excluded from the main hand-level analysis to avoid mixing incompatible units of observation.
+The notebook uses single-hand `.phh` files for the main analysis. `.phhs` files are audited as multi-hand containers readable with `HandHistory.load_all()`, but are excluded from the main hand-level analysis to avoid mixing incompatible units of observation. The notebook also audits source, variant, and game-structure fields so WSOP mixed-game records are not accidentally treated as if every hand used the same blind structure.
