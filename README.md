@@ -21,7 +21,7 @@ The project is framed for gaming, sportsbook, fantasy, marketplace, and product 
 - About 46.8% of hands resolve before any board reveal, while about 27.5% reach the final board reveal.
 - About 83.0% of hands resolve before show/muck-like activity; only about 17.0% reach a show/muck-like terminal state.
 - High-action hands are much more likely to reach showdown-like resolution, making action depth useful as a product-experience segmentation metric.
-- Street-level parsing creates a product-style engagement funnel that distinguishes early resolution from later-street continuation.
+- Street-level parsing creates a product-style engagement funnel that distinguishes public card reach from later-street decision activity.
 - Winner-card visibility is extremely limited, so the analysis avoids strategy conclusions and focuses on observable behavior.
 - Outcome intensity is concentrated: in the Pluribus subset, the top 10% of hands account for roughly 55.9% of normalized outcome intensity.
 
